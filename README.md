@@ -2,6 +2,14 @@
 
 CyberCoyote is a Linux command-line tool designed to automate the process of running penetration testing commands and analyzing their output using a Language Model (LLM) hosted via Text Generation Web UI. The tool helps penetration testers to better understand the output of their commands and suggests the next steps based on the context provided.
 
+## Warning
+
+This tool is very much still in development.
+
+## Pre-requesits
+Have the followeing installed with APIs enabled: [https://github.com/oobabooga/text-generation-webui]
+
+
 ## Features
 
 - Run a command and analyze its output using an LLM.
