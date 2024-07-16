@@ -1,0 +1,8 @@
+{
+    "LLM_SERVER_URL": "http://192.168.0.0:5000/v1/chat/completions",
+    "HEADERS": {
+        "Content-Type": "application/json"
+    },
+    "PROMPT_TEMPLATE": "Based on the following command output, please provide the next command to run in this penetration test. Format the response as follows:\n\nNext command:\n<command>\n\nExplanation:\n<explanation>\n\nCommand output:\n",
+    "ERROR_COUNT_LIMIT": 3
+}
